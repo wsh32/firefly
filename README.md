@@ -1,1 +1,3 @@
-# DroneShow
+# Firefly: Mini coordinated drone shows
+
+
