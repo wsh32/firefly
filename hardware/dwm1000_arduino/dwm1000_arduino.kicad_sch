@@ -559,76 +559,82 @@
       (reference "A1") (unit 1) (value "Arduino_Nano") (footprint "Module:Arduino_Nano")
     )
     (path "/c8ac3dbb-1010-4648-ac2a-1cb21fe3a5c2/0224a742-47cf-443f-854d-94785e8c7adb"
-      (reference "C1") (unit 1) (value "10uF") (footprint "")
+      (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/c8ac3dbb-1010-4648-ac2a-1cb21fe3a5c2/06d1b67a-f2cc-46a8-8242-84de8d0e8dd0"
-      (reference "D1") (unit 1) (value "NeoPixel_THT") (footprint "")
+      (reference "D1") (unit 1) (value "NeoPixel_THT") (footprint "LED_THT:LED_D5.0mm-4_RGB")
     )
     (path "/c8ac3dbb-1010-4648-ac2a-1cb21fe3a5c2/15c10bbb-0153-439f-b83c-a53eac3b2e4a"
-      (reference "D2") (unit 1) (value "NeoPixel_THT") (footprint "")
+      (reference "D2") (unit 1) (value "NeoPixel_THT") (footprint "LED_THT:LED_D5.0mm-4_RGB")
     )
     (path "/c8ac3dbb-1010-4648-ac2a-1cb21fe3a5c2/81c602fc-848d-4ea5-87e6-0c611679d6f9"
-      (reference "D3") (unit 1) (value "TXLED") (footprint "")
+      (reference "D3") (unit 1) (value "TXLED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/c8ac3dbb-1010-4648-ac2a-1cb21fe3a5c2/e9725cb1-410c-4e1d-85be-a0378637ff5a"
-      (reference "D4") (unit 1) (value "RXLED") (footprint "")
+      (reference "D4") (unit 1) (value "RXLED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/c8ac3dbb-1010-4648-ac2a-1cb21fe3a5c2/bb68e2bc-2448-46c0-a004-c1213e3ae7d8"
-      (reference "D5") (unit 1) (value "SFDLED") (footprint "")
+      (reference "D5") (unit 1) (value "SFDLED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/c8ac3dbb-1010-4648-ac2a-1cb21fe3a5c2/584fa988-c7aa-4cbc-a2d5-d07d5fb3d097"
-      (reference "D6") (unit 1) (value "SFDLED") (footprint "")
+      (reference "D6") (unit 1) (value "RXOKLED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/bbcfa2f2-5e07-498a-9f07-a4e9b06104d2/75075536-1d14-44a6-9d6b-3d3ad6d6904b"
       (reference "DWM1") (unit 1) (value "DWM1000") (footprint "RF_Module:DWM1000")
     )
     (path "/5e06f65c-f2c6-4e90-84c8-a08a5998af78/bc55ae24-4599-487a-ad10-b701758ee559"
-      (reference "F1") (unit 1) (value "500mA") (footprint "")
+      (reference "F1") (unit 1) (value "500mA") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/5e06f65c-f2c6-4e90-84c8-a08a5998af78/8a8cc832-51c8-48ec-a66e-17ee8f6cc829"
-      (reference "F2") (unit 1) (value "500mA") (footprint "")
+      (reference "F2") (unit 1) (value "500mA") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
-    (path "/5e06f65c-f2c6-4e90-84c8-a08a5998af78/d3fa1e9a-c4dc-4672-8ccd-a069ff2f17f3"
-      (reference "J1") (unit 1) (value "Barrel_Jack") (footprint "")
+    (path "/5e06f65c-f2c6-4e90-84c8-a08a5998af78/54511426-465c-4a5a-9c00-45f6a37014d1"
+      (reference "J1") (unit 1) (value "RAW_PWR") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal")
     )
-    (path "/5e06f65c-f2c6-4e90-84c8-a08a5998af78/a5ef1a04-066d-40c7-8253-7db29983563a"
-      (reference "J2") (unit 1) (value "PWR_IN") (footprint "")
+    (path "/5e06f65c-f2c6-4e90-84c8-a08a5998af78/23d7699f-fd2c-426f-823e-c0a0d0840ba2"
+      (reference "J2") (unit 1) (value "PWR_IN") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal")
     )
     (path "/5e06f65c-f2c6-4e90-84c8-a08a5998af78/e17672b7-7746-4f88-8c6d-0e5bcbf3972f"
-      (reference "J3") (unit 1) (value "UART") (footprint "")
+      (reference "J3") (unit 1) (value "UART") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal")
     )
     (path "/5e06f65c-f2c6-4e90-84c8-a08a5998af78/245efe7d-b03e-4792-973c-c3240668eae4"
-      (reference "J4") (unit 1) (value "SPI") (footprint "")
+      (reference "J4") (unit 1) (value "SPI") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal")
     )
     (path "/5e06f65c-f2c6-4e90-84c8-a08a5998af78/9f1f9f04-0a5b-4d35-8d59-4e87277df504"
-      (reference "J5") (unit 1) (value "NEO_OUT") (footprint "")
+      (reference "J5") (unit 1) (value "NEO_OUT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/5e06f65c-f2c6-4e90-84c8-a08a5998af78/ee173561-d9a4-4c19-9b3f-cfda96c70a36"
-      (reference "J6") (unit 1) (value "Conn_01x06_Male") (footprint "")
+      (reference "J6") (unit 1) (value "DEBUG") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
     (path "/c8ac3dbb-1010-4648-ac2a-1cb21fe3a5c2/0feaa0e3-c0f0-4d3c-8a22-243f972f44bf"
-      (reference "JP1") (unit 1) (value "SKIP_NEOS") (footprint "")
+      (reference "JP1") (unit 1) (value "SKIP_NEOS") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/bbcfa2f2-5e07-498a-9f07-a4e9b06104d2/937ade15-165b-42f2-a8bc-712966e3b156"
-      (reference "R1") (unit 1) (value "10K") (footprint "")
+      (reference "R1") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/c8ac3dbb-1010-4648-ac2a-1cb21fe3a5c2/c0a29179-c330-4137-b168-1e133540d75f"
-      (reference "R2") (unit 1) (value "200") (footprint "")
+      (reference "R2") (unit 1) (value "200") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/c8ac3dbb-1010-4648-ac2a-1cb21fe3a5c2/f240b27f-8c5d-4b62-8c64-3839ce4ca1c2"
-      (reference "R3") (unit 1) (value "200") (footprint "")
+      (reference "R3") (unit 1) (value "200") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/c8ac3dbb-1010-4648-ac2a-1cb21fe3a5c2/998feb33-4295-4bd4-9aac-fa000b6f8ac8"
-      (reference "R4") (unit 1) (value "200") (footprint "")
+      (reference "R4") (unit 1) (value "200") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/c8ac3dbb-1010-4648-ac2a-1cb21fe3a5c2/75375c2d-0e7c-4689-870b-3d3cc1da19f3"
-      (reference "R5") (unit 1) (value "200") (footprint "")
+      (reference "R5") (unit 1) (value "200") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/5e06f65c-f2c6-4e90-84c8-a08a5998af78/f6ea1a3d-e490-4de5-ad2d-e7087b305217"
-      (reference "TP1") (unit 1) (value "5V") (footprint "")
+      (reference "TP1") (unit 1) (value "5V") (footprint "TestPoint:TestPoint_Pad_D2.5mm")
     )
     (path "/5e06f65c-f2c6-4e90-84c8-a08a5998af78/baa30378-08e9-4b99-80a4-c6b726f0f7a7"
-      (reference "TP2") (unit 1) (value "3V3") (footprint "")
+      (reference "TP2") (unit 1) (value "3V3") (footprint "TestPoint:TestPoint_Pad_D2.5mm")
+    )
+    (path "/bbcfa2f2-5e07-498a-9f07-a4e9b06104d2/43883f72-8378-4ec6-a2b3-8b2520529937"
+      (reference "TP3") (unit 1) (value "DWM_GPIO7") (footprint "")
+    )
+    (path "/bbcfa2f2-5e07-498a-9f07-a4e9b06104d2/7815305a-d604-4fe7-beb4-471721217511"
+      (reference "TP4") (unit 1) (value "DWM_GPIO4") (footprint "")
     )
   )
 )
