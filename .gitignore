@@ -175,6 +175,7 @@ modules.xml
 # Format documentation: https://kicad.org/help/file-formats/
 
 \#auto_saved_files\#
+gerbers/
 
 # Temporary files
 *.000
