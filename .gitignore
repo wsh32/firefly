@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/python,ros,c,c++,jetbrains+all,vim,macOS
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,ros,c,c++,jetbrains+all,vim,macOS
+# Created by https://www.toptal.com/developers/gitignore/api/python,ros,c,c++,jetbrains+all,vim,macos,kicad
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,ros,c,c++,jetbrains+all,vim,macos,kicad
 
 ### C ###
 # Prerequisites
@@ -169,6 +169,48 @@ modules.xml
 
 # Sonarlint plugin
 .idea/sonarlint
+
+### KiCad ###
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+\#auto_saved_files\#
+gerbers/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+### KiCad Patch ###
+rescue-backup/
+
+*.tsv
+bom/
+
+# Gerber export output
 
 ### macOS ###
 # General
@@ -394,7 +436,6 @@ qtcreator-*
 /planning/docs
 /planning/src
 
-*~
 
 # Emacs
 .#*
@@ -422,4 +463,4 @@ tags
 # Persistent undo
 [._]*.un~
 
-# End of https://www.toptal.com/developers/gitignore/api/python,ros,c,c++,jetbrains+all,vim,macOS
+# End of https://www.toptal.com/developers/gitignore/api/python,ros,c,c++,jetbrains+all,vim,macos,kicad
